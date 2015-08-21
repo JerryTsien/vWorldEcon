@@ -1,0 +1,25 @@
+---
+title: "Help"
+author: "Jerry Tsien"
+date: "Thursday, August 20, 2015"
+output: html_document
+runtime: shiny
+---
+
+## Visualized World Economy  
+
+Welcome to Visualized World Economy! It renders the [IMF World Economic Outlook database](http://www.imf.org/external/pubs/ft/weo/2015/01/weodata/download.aspx) in three views: `map`, `chart`, and `table`.  
+
+To switch between views, simply click on the tab in the navigation bar at the top.  
+
+## Map
+
+To get a map view of the data, you can select the `region`, `year`, and `indicator` from the left panel. The default is economic growth in the world in 2015, but you can easily change the settings for a customized view, for example, inflation in Europe in 2009. You can also hover the mouse over a specific country in the map for more details.  
+
+## Chart
+
+To get a chart view of the data, you can select the `country`, `year range`, `indicator`, and `chart type`. The default is economic growth in the US for the past ten years as a bar chart.  
+
+## Table
+
+To get a table view of the data, you can select `year range` and `indicator`. The default is economic growth for all the countries in the world in the past ten years, ordered by country name. You can re-order the data by clicking on the column header. And you can search for data globally or by column with the text boxes in the top-right corner and at the bottom of the table.  
